@@ -13,9 +13,7 @@ struct ContentView: View {
             Image(systemName: "heart.fill")
                 .font(.largeTitle)
                 .foregroundStyle(.tint)
-            Button("click my") {
-                
-            }
+    =
             Text("Swift Ui")
         }
         .padding()
