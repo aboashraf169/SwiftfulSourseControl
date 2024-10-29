@@ -63,7 +63,16 @@ struct ContentView: View {
                 .frame(height: 150)
                 .background(ImageColor)
                 .cornerRadius(10)
+            Text("text")
+                .font(.title)
+                .foregroundStyle(.white)
+                .frame(maxWidth: .infinity)
+                .frame(height: 150)
+                .background(ImageColor)
+                .cornerRadius(10)
+    
         }
+        
         .padding()
     }
 }
