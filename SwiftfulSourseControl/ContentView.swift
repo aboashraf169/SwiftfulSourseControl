@@ -28,15 +28,41 @@ import SwiftUI
  */
 
 struct ContentView: View {
+    @State var text : String = "Swift Ui"
+    @State var ImageColor  = Color.black
+
     var body: some View {
-        VStack {
+        VStack(spacing: 20){
             Image(systemName: "heart.fill")
+                .resizable()
+                .scaledToFit()
+                .frame(width: 100,height: 100)
                 .font(.largeTitle)
-                .foregroundStyle(.tint)
-            Button("click me") {
-                
+                .foregroundStyle(ImageColor)
+            
+            Button("Subscribe") {
+                ImageColor = Color.red
+                text = "things you to subscribe"
             }
-            Text("Swift Ui")
+            .buttonStyle(.borderedProminent)
+            .tint(ImageColor)
+            .font(.title2)
+            
+            Button("click me") {
+                ImageColor = Color.blue
+                text = "Hi Welcome To My World"
+            }
+            .buttonStyle(.bordered)
+            .tint(ImageColor)
+            .font(.title2)
+            
+            Text(text)
+                .font(.title)
+                .foregroundStyle(.white)
+                .frame(maxWidth: .infinity)
+                .frame(height: 150)
+                .background(ImageColor)
+                .cornerRadius(10)
         }
         .padding()
     }
