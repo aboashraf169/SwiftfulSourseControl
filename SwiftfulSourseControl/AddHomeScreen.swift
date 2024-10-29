@@ -39,6 +39,18 @@ struct AddHomeScreen: View {
                 .alert(isPresented: $showAlart){
                     GetAleart()
                 }
+                Button(action: {
+                }, label: {
+                    Text("go to back")
+                        .font(.headline)
+                        .foregroundStyle(.white)
+                        .padding()
+                        .padding(.horizontal,20)
+                        .background(Color.red)
+                        .cornerRadius(10)
+                        .padding()
+                })
+
             }
         }
 
