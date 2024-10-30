@@ -25,7 +25,7 @@ struct AddHomeScreen: View {
             
                 Button(action: {
                     showAlart.toggle()
-                    textAleart = "Your new todo item must be at least 3 characters long!!!😨😰😱"
+                    textAleart = "Your are no in home screen dont do anything !!!😨😰😱"
                 }, label: {
                     Text("go to next")
                         .font(.headline)
@@ -56,7 +56,7 @@ struct AddHomeScreen: View {
 
     }
     func GetAleart() -> Alert {
-            Alert(title: Text(textAleart), primaryButton:.default(Text("add")), secondaryButton: .cancel())
+            Alert(title: Text(textAleart), primaryButton:.default(Text("Show")), secondaryButton: .cancel())
     }
 }
 
