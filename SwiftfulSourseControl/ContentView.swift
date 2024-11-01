@@ -29,7 +29,7 @@ import SwiftUI
 
 struct ContentView: View {
     @State var text : String = "Swift Ui"
-    @State var ImageColor  = Color.black
+    @State var ImageColor  = Color.gray
 
     var body: some View {
         VStack(spacing: 20){
