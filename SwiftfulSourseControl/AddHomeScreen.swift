@@ -46,7 +46,7 @@ struct AddHomeScreen: View {
                         .foregroundStyle(.white)
                         .padding()
                         .padding(.horizontal,20)
-                        .background(Color.red)
+                        .background(Color.blue)
                         .cornerRadius(10)
                         .padding()
                 })
