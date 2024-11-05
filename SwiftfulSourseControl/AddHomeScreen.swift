@@ -14,7 +14,7 @@ struct AddHomeScreen: View {
         ZStack{
             Color.brown.ignoresSafeArea()
             VStack {
-                Text("Home Screen")
+                Text("Secand Beanch Screen")
                     .font(.largeTitle)
                     .foregroundStyle(.white)
                     .frame(maxWidth: .infinity)
