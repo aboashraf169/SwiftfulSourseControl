@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AD60099E2CF1D31600537BF6 /* SplachScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD60099D2CF1D31600537BF6 /* SplachScreenView.swift */; };
 		ADDDD4992CCD098700C6951A /* SwiftfulSourseControlApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADDDD4982CCD098700C6951A /* SwiftfulSourseControlApp.swift */; };
 		ADDDD49B2CCD098700C6951A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADDDD49A2CCD098700C6951A /* ContentView.swift */; };
 		ADDDD49D2CCD098900C6951A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ADDDD49C2CCD098900C6951A /* Assets.xcassets */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AD60099D2CF1D31600537BF6 /* SplachScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplachScreenView.swift; sourceTree = "<group>"; };
 		ADDDD4952CCD098700C6951A /* SwiftfulSourseControl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftfulSourseControl.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADDDD4982CCD098700C6951A /* SwiftfulSourseControlApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftfulSourseControlApp.swift; sourceTree = "<group>"; };
 		ADDDD49A2CCD098700C6951A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -54,6 +56,7 @@
 			isa = PBXGroup;
 			children = (
 				ADDDD4982CCD098700C6951A /* SwiftfulSourseControlApp.swift */,
+				AD60099D2CF1D31600537BF6 /* SplachScreenView.swift */,
 				ADDDD49A2CCD098700C6951A /* ContentView.swift */,
 				ADEEC5152CD0E78A003D64EE /* AddHomeScreen.swift */,
 				ADDDD49C2CCD098900C6951A /* Assets.xcassets */,
@@ -143,6 +146,7 @@
 				ADDDD49B2CCD098700C6951A /* ContentView.swift in Sources */,
 				ADDDD4992CCD098700C6951A /* SwiftfulSourseControlApp.swift in Sources */,
 				ADEEC5162CD0E78A003D64EE /* AddHomeScreen.swift in Sources */,
+				AD60099E2CF1D31600537BF6 /* SplachScreenView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
