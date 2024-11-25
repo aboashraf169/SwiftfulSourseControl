@@ -12,6 +12,7 @@
 		ADDDD49D2CCD098900C6951A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ADDDD49C2CCD098900C6951A /* Assets.xcassets */; };
 		ADDDD4A02CCD098900C6951A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ADDDD49F2CCD098900C6951A /* Preview Assets.xcassets */; };
 		ADEEC5162CD0E78A003D64EE /* AddHomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADEEC5152CD0E78A003D64EE /* AddHomeScreen.swift */; };
+		ADF98ADB2CF4536300DF7172 /* loginScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF98ADA2CF4536300DF7172 /* loginScreen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		ADDDD49C2CCD098900C6951A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ADDDD49F2CCD098900C6951A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		ADEEC5152CD0E78A003D64EE /* AddHomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddHomeScreen.swift; sourceTree = "<group>"; };
+		ADF98ADA2CF4536300DF7172 /* loginScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = loginScreen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 				ADDDD4982CCD098700C6951A /* SwiftfulSourseControlApp.swift */,
 				ADDDD49A2CCD098700C6951A /* ContentView.swift */,
 				ADEEC5152CD0E78A003D64EE /* AddHomeScreen.swift */,
+				ADF98ADA2CF4536300DF7172 /* loginScreen.swift */,
 				ADDDD49C2CCD098900C6951A /* Assets.xcassets */,
 				ADDDD49E2CCD098900C6951A /* Preview Content */,
 			);
@@ -141,6 +144,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				ADDDD49B2CCD098700C6951A /* ContentView.swift in Sources */,
+				ADF98ADB2CF4536300DF7172 /* loginScreen.swift in Sources */,
 				ADDDD4992CCD098700C6951A /* SwiftfulSourseControlApp.swift in Sources */,
 				ADEEC5162CD0E78A003D64EE /* AddHomeScreen.swift in Sources */,
 			);
